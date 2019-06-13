@@ -1,0 +1,229 @@
+body,
+html {
+  /* font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif; */
+  margin: 0;
+  padding: 0;
+  color: #777;
+  font-size: 14px;
+  background: url("../images/brushed_@2X.png");
+  height: 100vh;
+  max-width: 100%;
+  /* overflow-x: hidden; */
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo-container a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #4aaaa5;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links {
+  padding-top: 1.5em;
+  height: 100%;
+  float: right;
+}
+
+.nav-link a {
+  opacity: 1;
+  color: #efefef;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+.nav-links a:nth-of-type(1)::after {
+  opacity: 0.2;
+  content: "|";
+  padding: 1em;
+}
+
+.nav-links a:nth-of-type(2)::after {
+  opacity: 0.2;
+  content: "|";
+  padding: 1em;
+}
+
+#logo-h1 {
+  line-height: 2em;
+  height: 100%;
+  font-size: 2em;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.logo-container {
+  border-radius: 1.5px;
+  width: 20em;
+  float: left;
+  background: #4aaaa5;
+  height: 100%;
+}
+
+.about-wrap {
+  margin-top: 1.5em;
+  height: 100%;
+}
+
+.port-container {
+  margin-top: 1.5em;
+  height: 100%;
+}
+
+.content {
+  background-color: #fff;
+  max-width: 960px;
+  width: 100%;
+  margin: 2em auto;
+  padding-bottom: 2em;
+}
+
+.where {
+  margin-top: 2em;
+  width: 100%;
+  text-align: center;
+}
+
+.where a {
+  font-size: 2.5em;
+  text-decoration: none;
+  color: black;
+  transition: ease-in 0.2s;
+  padding: 1em;
+}
+
+.where a:hover {
+  color: #4aaaa5;
+}
+
+section {
+  margin: 0 auto;
+  width: 95%;
+  height: 100%;
+}
+
+#about-img {
+  width: 120px;
+  height: 120px;
+  padding-right: 1em;
+  float: left;
+  border-radius: 20px;
+}
+
+section hr {
+  width: 96%;
+}
+
+section p {
+  line-height: 26px;
+}
+
+#section-h1 {
+  font-size: 2em;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  letter-spacing: 1px;
+  border-bottom: 2px solid rgba(204, 204, 204, 0.6);
+}
+
+footer {
+  margin-top: 40vh;
+  position: sticky;
+  width: 100%;
+  height: 5em;
+}
+
+.footer-content span {
+  font-size: 12px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: white;
+  height: 100%;
+  line-height: 9em;
+}
+
+.footer-content {
+  position: sticky;
+  border-top: 8px solid #4aaaa5;
+  height: 5em;
+  background-color: gray;
+}
+
+/* Contact Section */
+
+form label {
+  font-size: 16px;
+  text-align: left;
+  padding: 0.5em 0;
+  display: block;
+}
+
+form input {
+  text-indent: 10px;
+  font-size: 1.2em;
+  height: 2em;
+  width: 100%;
+  margin-bottom: 1em;
+  display: block;
+}
+
+form button {
+  margin: 1em 0;
+  font-size: 16px;
+  padding: 1em;
+  width: 10em;
+  background-color: #4aaaa5;
+  color: #fff;
+}
+
+#message {
+  text-indent: 10px;
+  font-size: 1.2em;
+  width: 100%;
+  height: 14em;
+}
+
+.port-img {
+  height: auto;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  color: red;
+  text-align: center;
+  width: 100%;
+  padding: 1em 0;
+  background-color: #4aaaa5;
+}
+
+.overlay a {
+  text-decoration: none;
+  color: white;
+}
+
+.project-container {
+  position: relative;
+}
+
+@media only screen and (max-width: 960px) {
+  .nav-links {
+    text-align: center;
+    margin-top: 1em;
+    float: left;
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+}
