@@ -82,10 +82,6 @@ h1 {
 
 .container {
   background-color: #fff;
-  /* max-width: 960px;
-  width: 100%;
-  margin: 2em auto;
-  padding-bottom: 2em; */
 }
 
 .where {
@@ -216,15 +212,4 @@ form button {
 
 .project-container {
   position: relative;
-}
-
-@media only screen and (max-width: 960px) {
-  .nav-links {
-    text-align: center;
-    margin-top: 1em;
-    float: left;
-    display: block;
-    height: 100%;
-    width: 100%;
-  }
 }
