@@ -1,3 +1,3 @@
-# Homework 1
-Portfolio using float and simple html semantics.
+# Homework 2
+Portfolio using bootstrap
 
